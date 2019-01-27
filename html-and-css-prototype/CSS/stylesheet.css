@@ -41,6 +41,10 @@ h1 {
 
 /* Your CSS code goes here */
 
+a:link {
+	color: #20A1D4;
+}
+
 .mockup-container {
 	width: 16.5em;
 	overflow: hidden;
@@ -106,10 +110,16 @@ h1 {
 	font-weight: bold;
 }
 
+.donate-body a {
+	text-decoration: none;
+	font-style: italic;
+	font-size: 0.7em;
+}
+
 form {
 	display: flex;
 	justify-content: space-between;
-	margin: 0.4em auto;
+	margin: 0.2em auto;
 }
 
 input[type=text] {
