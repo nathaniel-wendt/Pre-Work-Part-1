@@ -41,6 +41,13 @@ h1 {
 
 /* Your CSS code goes here */
 
+.mockup-container {
+	width: 16.5em;
+	overflow: hidden;
+	padding: 0 0;
+	margin: 0 auto;
+}
+
 .modal {
 	margin: 0 auto;
 	background: #424242;
@@ -66,3 +73,18 @@ h1 {
 	border-width: 6px 4px 0 4px;
 	border-color: #424242 transparent transparent transparent;
   }
+
+.progress-bar {
+	overflow: hidden;
+	height: 0.8em;
+	background-color: #FAFAFA;
+	box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+	margin: 0.5em auto 2em;
+	border: 1px solid #E9E9E9;
+}
+
+.progress {
+	width: 0;
+	height: 100%;
+	background-color: #EF5F3C;
+}
