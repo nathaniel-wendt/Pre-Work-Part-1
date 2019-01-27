@@ -99,7 +99,7 @@ a:link {
 	padding: 1em;
 }
 
-.donate-body p {
+p.donate-p {
 	font-size: 0.7em;
 	color: #777;
 	padding-bottom: 1em;
@@ -110,19 +110,19 @@ a:link {
 	font-weight: bold;
 }
 
-.donate-body a {
+a.donate-a {
 	text-decoration: none;
 	font-style: italic;
 	font-size: 0.7em;
 }
 
-form {
+.donate-form {
 	display: flex;
 	justify-content: space-between;
 	margin: 0.2em auto;
 }
 
-input[type=text] {
+.donate-form input[type=text] {
 	color: #424242;
 	display: inline-block;
 	padding: 0.7em 0.4em;
@@ -133,7 +133,7 @@ input[type=text] {
 	border-width: thin;	
 }
 
-input[type=submit] {
+.donate-form input[type=submit] {
 	display: inline-block;
 	padding: 1em 1.5em;
 	border-radius: 4px;
@@ -151,7 +151,7 @@ input[type=submit] {
 	margin: 0.8em auto;
 }
 
-.action-buttons a {
+a.action-a {
 	text-decoration: none;
 	font-size: 0.7em;
 	color: #777;
