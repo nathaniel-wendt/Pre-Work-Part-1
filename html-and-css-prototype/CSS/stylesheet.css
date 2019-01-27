@@ -96,7 +96,7 @@ a:link {
 }
 
 .donate-body {
-	padding: 1em 1em;
+	padding: 1em;
 }
 
 .donate-body p {
@@ -135,7 +135,7 @@ input[type=text] {
 
 input[type=submit] {
 	display: inline-block;
-	padding: 1em 1.6em;
+	padding: 1em 1.5em;
 	border-radius: 4px;
 	color: #FFF;
 	font-weight: bold;
@@ -152,12 +152,14 @@ input[type=submit] {
 }
 
 .action-buttons a {
-	display: inline-block;
 	text-decoration: none;
 	font-size: 0.7em;
 	color: #777;
 	font-weight: bold;
 	border-bottom: 2px solid #DCDCDC;
-	padding: 0.7em 2em;
+	width: 11.2em;
+	height: 3em;
+	text-align: center;
 	border-radius: 2px;
+	line-height: 3em;
 }
