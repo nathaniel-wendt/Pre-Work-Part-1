@@ -42,7 +42,7 @@ h1 {
 /* Your CSS code goes here */
 
 a:link {
-	color: #20A1D4;
+	color: #12A1D6;
 }
 
 .mockup-container {
@@ -80,7 +80,7 @@ a:link {
 
 .progress-bar {
 	overflow: hidden;
-	height: 0.7em;
+	height: 0.8em;
 	background-color: #FAFAFA;
 	margin: 0.5em auto 0;
 }
@@ -92,11 +92,12 @@ a:link {
 }
 
 .border {
-	border: 1px solid #E9E9E9;
+	border: 1px solid #DCDCDC;
 }
 
 .donate-body {
 	padding: 1em;
+	border-top: none;
 }
 
 p.donate-p {
@@ -106,7 +107,7 @@ p.donate-p {
 }
 
 .donate-body span {
-	color: #EF5F3C;
+	color: #F15E33;
 	font-weight: bold;
 }
 
@@ -129,13 +130,12 @@ a.donate-a {
 	border-radius: 4px;
 	font-weight: bold;
 	font-size: 1em;
-	width: 6.5em;
-	border-width: thin;	
+	width: 6.5em;	
 }
 
 .donate-form input[type=submit] {
 	display: inline-block;
-	padding: 1em 1.5em;
+	padding: 1em 1.5em 0.7em;
 	border-radius: 4px;
 	color: #FFF;
 	font-weight: bold;
@@ -143,6 +143,7 @@ a.donate-a {
 	text-decoration: none;
 	background-color: #00BE1B;
 	border: none;
+	border-bottom: 2px solid #01B21A;
 }
 
 .action-buttons {
