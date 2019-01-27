@@ -31,9 +31,9 @@ h1 {
 	font-family: "rooney-web", "AmericanTypewriter", Rockwell, serif;
 
   COLORS:
-  blue: #20A1D4;
-  green: #1CBC2C;
-  orange: #EF5F3C;
+  blue: #20A1D4;   // #12A1D6;
+  green: #1CBC2C;  // #00BE1B;
+  orange: #EF5F3C; // #EF5F3C;
   black: #424242;
   grey: #777;
   light grey: #eaeaea;
