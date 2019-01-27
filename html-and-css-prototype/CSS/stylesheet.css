@@ -144,3 +144,20 @@ input[type=submit] {
 	background-color: #00BE1B;
 	border: none;
 }
+
+.action-buttons {
+	display: flex;
+	justify-content: space-between;
+	margin: 0.8em auto;
+}
+
+.action-buttons a {
+	display: inline-block;
+	text-decoration: none;
+	font-size: 0.7em;
+	color: #777;
+	font-weight: bold;
+	border-bottom: 2px solid #DCDCDC;
+	padding: 0.7em 2em;
+	border-radius: 2px;
+}
